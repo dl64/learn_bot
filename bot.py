@@ -10,7 +10,7 @@ PROXY = {'proxy_url': settings.PROXY_URL,
 
 def greet_user(update, context):
     print("Вызван /start")
-    update.message.reply_text("Здравствуй, пользователь!")
+    update.message.reply_text("Привет!")
 
 def talk_to_me(update,context):
     text = update.message.text
